@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package chatgpt;
+import "rpc_chat_gpt.proto";
+
+option go_package = "github.com/onepiece010938/go-line-message-analyzer/internal/adapter/grpc/chatgpt";
+
+service OpenAi{
+    rpc ChatGpt (ChatGptRequest) returns (ChatGptReply);
+} 
+
+// original
+// syntax = "proto3";
+
+// import "rpc_chat_gpt.proto";
+// package pb;
+// service OpenAi{
+//     rpc ChatGpt(ChatGptRequest) returns (ChatGptReply);
+// }
