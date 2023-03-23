@@ -3,5 +3,5 @@
     make proto
 ## Run OpenAI gRPC Server
     make server
-## Run OpenAI gRPC cLIENT
+## Run OpenAI gRPC Client
     make client
