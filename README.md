@@ -1,4 +1,4 @@
-# line-chat-annalytics
+# python-grpc-chatgpt
 ## Generate grpc code
     make proto
 ## Run OpenAI gRPC Server
